@@ -8,9 +8,16 @@ export default function WorkType() {
   const t = useTranslations("HomePage");
   const items = t.raw("WorksTypeSection");
   const IconArray = [
-    <Image src={AI_LOG} width={28} height={22} alt="Ai Logo" />,
-    <Image src={COMPUTER} width={35} height={31} alt="Computer" />,
+    <Image key="Ai Logo" src={AI_LOG} width={28} height={22} alt="Ai Logo" />,
     <Image
+      key="Computer"
+      src={COMPUTER}
+      width={35}
+      height={31}
+      alt="Computer"
+    />,
+    <Image
+      key="Design Services"
       src={DESIGN_SERVICES}
       width={48}
       height={48}
@@ -23,7 +30,7 @@ export default function WorkType() {
       <div className="max-w-[950px] grid lg:grid-cols-3 grid-cols-2 max-[600px]:grid-cols-1 justify-between items-center mx-auto">
         {items.map((item, index) => (
           <WorkTypeItem
-            key={index}
+            key={"work type " + index}
             icon={IconArray[index % 3]}
             title={item}
             className={` ${

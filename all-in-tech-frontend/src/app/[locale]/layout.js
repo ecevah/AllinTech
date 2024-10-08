@@ -88,10 +88,11 @@ export default async function RootLayout({ children }) {
     <html>
       <head>
         <Script
+          id="first-inline-script"
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.ANALYTICS}`}
         ></Script>
-        <Script>
+        <Script id="second-inline-script">
           {`
             window.dataLayer = window.dataLayer || []; function gtag()
             {dataLayer.push(arguments);}

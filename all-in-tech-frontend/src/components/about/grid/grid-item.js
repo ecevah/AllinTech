@@ -22,7 +22,7 @@ export default function GridItem({ item, animate }) {
       <AnimateOnScroll animationClass={animate}>
         <div className="flex flex-col items-center w-fit h-fit my-[80px]">
           <div className={styles.gridItem}>
-            <Image src={item.photo} width={320} height={350} />
+            <Image src={item.photo} width={320} height={350} alt="Mockup" />
           </div>
           <div className="Jost text-[24px] font-medium leading-[37px] tracking-[-1.5%] mt-[30px] cursor-default">
             {item.name}

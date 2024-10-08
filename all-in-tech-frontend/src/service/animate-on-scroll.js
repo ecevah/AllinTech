@@ -7,7 +7,9 @@ const AnimateOnScroll = ({ children, animationClass, className = "" }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    if (!elementRef.current) return;
+    const currentElement = elementRef.current; // Store the current value of the ref
+
+    if (!currentElement) return;
 
     const observer = new IntersectionObserver(
       (entries, observerInstance) => {
@@ -19,15 +21,15 @@ const AnimateOnScroll = ({ children, animationClass, className = "" }) => {
         });
       },
       {
-        threshold: 0.1, // %10 görünürlük
+        threshold: 0.1, // 10% visibility
       }
     );
 
-    observer.observe(elementRef.current);
+    observer.observe(currentElement);
 
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      if (currentElement) {
+        observer.unobserve(currentElement);
       }
     };
   }, []);
