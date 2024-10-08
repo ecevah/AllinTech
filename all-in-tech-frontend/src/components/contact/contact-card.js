@@ -137,7 +137,7 @@ export default function ContactCard({
             placeholder={message}
             value={formData.message}
             onChange={handleChange}
-            className={`${styles.input} h-[150px] sm:h-[200px] max-h-[200px] !py-[15px] !px-[20px] mb-4`}
+            className={`${styles.input} h-[150px] sm:h-[200px] max-h-[200px] !py-[15px] !px-[20px] mb-4 !rounded-[20px]`}
             required
           />
           {status && (

@@ -124,7 +124,8 @@
                     "/products/allinlobby/image3.png"
                 ],
                 "socialMedia": {
-                    "linkedin": "https://www.instagram.com/allinlobby"
+                    "instagram": "https://www.instagram.com/allinlobby",
+                    "youtube": "https://www.instagram.com/allinlobby"
                 }
             },
             {
@@ -140,7 +141,8 @@
                 "socialMedia": {
                     "linkedin": "https://www.linkedin.com/company/psynexa",
                     "instagram": "https://www.instagram.com/psynexa.tr/",
-                    "website":"https://www.psynexa.com/tr"
+                    "website":"https://www.psynexa.com/tr",
+                    "youtube": "https://www.youtube.com/watch?v=GsPH_GagYSY&t=6s"
                 }
             }
         ]

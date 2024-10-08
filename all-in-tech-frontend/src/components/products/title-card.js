@@ -15,17 +15,17 @@ export default function TitleCard({ title, description, slogan }) {
       />
       <div className="flex flex-col pr-[160px] max-[1000px]:pr-0">
         <AnimateOnScroll animationClass="slide-down">
-          <div className="text-[30px] md:text-[50px] font-bold leading-[40px] md:leading-[100px] tracking-[-2%] md:tracking-[-3%] ">
+          <div className="text-[25px] sm:text-[30px] md:text-[50px] font-bold leading-[35px] sm:leading-[40px] md:leading-[100px] tracking-[-2%] md:tracking-[-3%] ">
             {title}
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll animationClass="slide-left">
-          <div className="text-[18px] md:text-[24px] leading-[30px] md:leading-[37px] tracking-[-1%] md:tracking-[-1.5%] font-semibold text-justify pr-[20px]">
+          <div className="text-[13px] sm:text-[18px] md:text-[24px] leading-[25px] sm:leading-[30px] md:leading-[37px] tracking-[-1%] md:tracking-[-1.5%] font-semibold text-justify pr-[20px]">
             {description}
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll animationClass="slide-right">
-          <div className="text-[22px] md:text-[30px] leading-[28px] md:leading-[37px] tracking-[-1%] md:tracking-[-1.5%] font-extrabold italic text-justify text-[#B9FD50] relative w-fit max-w-full md:max-w-[1100px]">
+          <div className="mr-[30px] sm:mr-0 text-[17px] sm:text-[22px] md:text-[30px] leading-[23px] sm:leading-[28px] md:leading-[37px] tracking-[-1%] md:tracking-[-1.5%] font-extrabold italic text-justify text-[#B9FD50] relative w-fit max-w-full md:max-w-[1100px]">
             {slogan}
             <Image
               src={SIGNATURE_WHITE}

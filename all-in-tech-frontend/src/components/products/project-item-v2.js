@@ -8,6 +8,7 @@ import {
   LINKEDIN,
   MEDIUM,
   WEBSITE,
+  YOUTUBE,
 } from "@/constant/constant_svg";
 import AnimateOnScroll from "@/service/animate-on-scroll";
 import Image from "next/image";
@@ -110,6 +111,11 @@ export default function ProjectItemV2({
               {linkData.medium && (
                 <Link className="mr-2" href={linkData.medium} target="_blank">
                   <Image src={MEDIUM} width={30} height={30} alt="Medium" />
+                </Link>
+              )}
+              {linkData.youtube && (
+                <Link className="mr-2" href={linkData.youtube} target="_blank">
+                  <Image src={YOUTUBE} width={30} height={30} alt="Youtube" />
                 </Link>
               )}
               {linkData.website && (

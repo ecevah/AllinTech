@@ -56,10 +56,10 @@ export default function Footer() {
                   className=""
                 />
                 <a
-                  href="mailto:info@allintechsolutions.com.tr"
+                  href="mailto:allintechlimited@gmail.com"
                   className="Jost opacity-80 text-sm leading-6 cursor-pointer ml-2"
                 >
-                  info@allintechsolutions.com.tr
+                  allintechlimited@gmail.com
                 </a>
               </div>
             </AnimateOnScroll>
@@ -76,7 +76,7 @@ export default function Footer() {
                   href="tel:05422793365"
                   className="Jost opacity-80 text-sm leading-6 cursor-pointer ml-2"
                 >
-                  0542 279 33 65
+                  +90 542 279 33 65
                 </a>
               </div>
             </AnimateOnScroll>
