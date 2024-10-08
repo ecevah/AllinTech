@@ -20,7 +20,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "AllinTech Solutions - AI ve Yazılım Geliştirme",
+  title: "AllinTech Solutions - Innovating Tomorrow, Today",
   description:
     "AllinTech Solutions, sosyal medya yazılımı, yapay zeka çözümleri sunan ve AllinLobby ile Psynexa gibi yenilikçi uygulamalar geliştiren önde gelen bir yazılım şirketidir.",
   keywords: [
@@ -42,7 +42,7 @@ export const metadata = {
     },
   ],
   openGraph: {
-    title: "AllinTech Solutions - AI ve Yazılım Geliştirme",
+    title: "AllinTech Solutions - Innovating Tomorrow, Today",
     description:
       "Sosyal medya yazılımı, yapay zeka çözümleri ve AllinLobby ile Psynexa gibi yenilikçi uygulamalar sunan lider bir yazılım şirketiyiz.",
     url: "https://www.allintechsolutions.com",
@@ -59,7 +59,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AllinTech Solutions - AI ve Yazılım Geliştirme",
+    title: "AllinTech Solutions - Innovating Tomorrow, Today",
     description:
       "Sosyal medya yazılımı, yapay zeka çözümleri ve AllinLobby ile Psynexa gibi yenilikçi uygulamalar sunan lider bir yazılım şirketiyiz.",
     images: ["/images/svg/AiT-logo.svg"],

@@ -16,7 +16,7 @@
             "green": "Fark Yaratın"
         },
         "WorksTypeSection":[
-            "Yapay Zeka Çözümleri",
+            "Yapay Zeka",
             "Mobil ve Web Uygulama Geliştirme",
             "UI/UX Tasarımı"
         ],
@@ -30,8 +30,8 @@
             "Hedef Ürün"
         ],
         "WavesSection":{
-            "title": "Hayalinizdeki Proje İçin İlk Adımı Atın !",
-            "description": "Yenilikçi Tasarımlar ve Kişiye Özel Çözümlerle Projelerinizi Bir Üst Seviyeye Taşıyın. Şimdi İletişime Geçin ve Hayalinizdeki Projeyi Başarıyla Tamamlayın!",
+            "title": "İşletmenizi Geleceğe Taşıyın !",
+            "description": "Yenilikçi tasarımlar ve işletmenize özel çözümlerle projelerinizi bir üst seviyeye taşıyın. Hemen bizimle iletişime geçin ve vizyonunuzu gerçeğe dönüştürerek başarıya ulaşın!",
             "button":{
                 "text":"İletişime Geç",
                 "link": "/tr/contact"
