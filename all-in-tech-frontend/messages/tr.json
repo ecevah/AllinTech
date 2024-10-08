@@ -1,0 +1,163 @@
+{
+    "HomePage": {
+        "HeroSection":{
+            "title": {
+                "white": "Geleceğin Dijital Deneyimlerini",
+                "green": "Tasarlıyoruz!"
+            },
+            "description": "Yapay zeka destekli inovatif çözümlerle, kullanıcı odaklı ve sürdürülebilir dijital deneyimler tasarlayarak, teknolojinin sınırlarını zorlayıp geleceği bugünden şekillendiriyoruz, iş süreçlerini daha verimli hale getiriyor ve dijital dünyada fark yaratıyoruz.",
+            "button":{
+                "text":"İletişime Geç",
+                "link": "/tr/contact"
+            }
+        },
+        "AphorismSection":{
+            "white": "Yapay Zeka ve Özel Yazılım Çözümleriyle",
+            "green": "Fark Yaratın"
+        },
+        "WorksTypeSection":[
+            "Yapay Zeka Çözümleri",
+            "Mobil ve Web Uygulama Geliştirme",
+            "UI/UX Tasarımı"
+        ],
+        "MissionStatementSection":"İnovasyonun merkezinde yer alıyoruz. Yapay zeka, veri bilimi, mobil ve web tabanlı çözümlerle işletmelere özel yazılım ürünleri geliştiriyoruz. Kullanıcı deneyimini ön planda tutan tasarımlarımız ve güçlü mühendislik ekibimizle, dijital dünyada fark yaratmanızı sağlıyoruz. İster müşteri ilişkileri yönetimi, ister veri analitiği, ister mobil uygulamalar her projeye yaratıcı bir bakış açısı ve teknik mükemmeliyetle yaklaşıyoruz. Amacımız, iş süreçlerinizi daha akıllı, verimli ve etkili hale getiren yazılımlar sunarak büyümenize katkıda bulunmak.",
+        "RoadMapSection":[
+            "Fikir ve Konsept Geliştirme",
+            "Gereksinimlerin Belirlenmesi",
+            "Tasarım Aşaması",
+            "Yazılım Geliştirme",
+            "Test ve Kalite Kontrol",
+            "Hedef Ürün"
+        ],
+        "WavesSection":{
+            "title": "Hayalinizdeki Proje İçin İlk Adımı Atın !",
+            "description": "Yenilikçi Tasarımlar ve Kişiye Özel Çözümlerle Projelerinizi Bir Üst Seviyeye Taşıyın. Şimdi İletişime Geçin ve Hayalinizdeki Projeyi Başarıyla Tamamlayın!",
+            "button":{
+                "text":"İletişime Geç",
+                "link": "/tr/contact"
+            }
+        },
+        "FooterSection": [
+            {
+                "title": "Daha fazla",
+                "items": [
+                {
+                    "text": "Ana Sayfa",
+                    "link": "/tr"
+                },
+                {
+                    "text": "Hakkımızda",
+                    "link": "/tr/about"
+                },
+                {
+                    "text": "Ürünlerimiz",
+                    "link": "/tr/products"
+                },
+                {
+                    "text": "İletişim",
+                    "link": "/tr/contact"
+                }
+                ]
+            },
+            {
+                "title": "Yasal",
+                "items": [
+                {
+                    "text": "Şirket ve Markalaşma",
+                    "link": "#"
+                },
+                {
+                    "text": "Gizlilik Politikası",
+                    "link": "#"
+                },
+                {
+                    "text": "Şartlar ve Koşullar",
+                    "link": "/tr"
+                }
+                ]
+            }
+        ],
+        "FooterStatic":{
+            "contact": "İletişim",
+            "follow": "Takip Edin"
+        }
+    },
+    "Header":[
+        {
+            "text": "Ana Sayfa",
+            "link": "/tr"
+        },
+        {
+            "text": "Hakkımızda",
+            "link": "/tr/about"
+        },
+        {
+            "text": "Ürünlerimiz",
+            "link": "/tr/products"
+        },
+        {
+            "text": "İletişim",
+            "link": "/tr/contact"
+        }
+    ],
+    "AboutPage":{
+        "title":"Ekip",
+        "description": {
+            "white1": "Arkadaşlıkla başladığımız bu yolculuğu profesyonel bir boyuta taşıdık.",
+            "white2": "2 yıldır birlikte yazılım projeleri geliştiren ",
+            "green": "dinamik ve tutkulu bir ekibiz."
+        }
+    },
+    "ProductsPage":{
+        "title": "Ürünlerimiz",
+        "description": "Ürünlerimizle işinizi dijitalde bir adım öne taşıyın! Yapay zeka destekli çözümler, veri analitiği platformları, CRM sistemleri ve mobil/web yazılımlarımızla süreçlerinizi optimize edin ve rekabette fark yaratın.",
+        "slogan": "Şimdi harekete geçin, geleceği birlikte şekillendirelim!",
+        "products": [
+            {
+                "logo": "/products/allinlobby/allinlobby-logo.svg",
+                "mockup": "/products/allinlobby/allinlobby-mockup.png",
+                "title": "AllinLobby",
+                "desc": "AllinLobby bünyesinde birçok otel barındıran, bu otellerin hem pazarlama çalışmalarını hem de müşterilerine sunduğu otel içi hizmetleri dijitalleştiren bir uygulamadır.",
+                "images": [
+                    "/products/allinlobby/image1.png",
+                    "/products/allinlobby/image2.png",
+                    "/products/allinlobby/image3.png"
+                ],
+                "socialMedia": {
+                    "linkedin": "https://www.instagram.com/allinlobby"
+                }
+            },
+            {
+                "logo": "/products/psynexa/psynexa-logo.svg",
+                "mockup": "/products/psynexa/psynexa-mockup.png",
+                "title": "Psynexa",
+                "desc": "Psynexa, üretken yapay zeka destekli mental arkadaş Nexabot ile bireylerin zihinsel sağlığını iyileştiren, kişiselleştirilmiş meditasyonlar ve analizler sunan bir wellness platformudur.",
+                "images": [
+                    "/products/psynexa/home.png",
+                    "/products/psynexa/blog.png",
+                    "/products/psynexa/nexa.png"
+                ],
+                "socialMedia": {
+                    "linkedin": "https://www.linkedin.com/company/psynexa",
+                    "instagram": "https://www.instagram.com/psynexa.tr/",
+                    "website":"https://www.psynexa.com/tr"
+                }
+            }
+        ]
+    },
+    "ContactPage": {
+        "white":"Hayalinizdeki Proje İçin ",
+        "green":"İlk Adımı Atın !",
+        "label":"İletişime Geçin",
+        "name":"Ad Soyad",
+        "email":"E-mail",
+        "subject":"Konu",
+        "message":"Mesajınız",
+        "button": "Gönder",
+        "response": {
+            "success": "Mesajınız başarıyla gönderildi!",
+            "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+            "loading": "Gönderiliyor..."
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.waves {
+    width: 100%;
+    height: 440px;
+    background: url("/images/svg/wave_merge.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

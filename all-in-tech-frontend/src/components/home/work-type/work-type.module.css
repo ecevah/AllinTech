@@ -1,0 +1,15 @@
+.items {
+    background: linear-gradient(180deg, #0A0A0C 0%, #262626 100%);
+    width: 75px;
+    height: 75px;
+    border-radius: 16px;
+    border: 0.5px solid #E6E6E6;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    transform: rotate(-45deg);
+}

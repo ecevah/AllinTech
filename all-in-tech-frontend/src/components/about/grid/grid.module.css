@@ -1,0 +1,32 @@
+.gridItem {
+    position: relative;
+    width: 332px;
+    height: 372px;
+    background: radial-gradient(65.3% 74.82% at 20.29% 13.47%, #1A1A1A 0%, #151515 50%, #101010 100%);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  
+  .gridItem::before {
+    content: '';
+    position: absolute;
+    top: -0px;
+    left: -0px;
+    right: -0px;
+    bottom: -0px;
+    border-radius: 25px;
+    padding: 1.4px; /* Kalınlık için */
+    background: linear-gradient(125.41deg, rgba(255, 255, 255, 0.4) 18.31%, rgba(128, 128, 128, 0.05) 36.43%, rgba(0, 0, 0, 0) 54.55%);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0); /* Yalnızca sınırları göstermek için */
+    mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude; /* Maskeleri birleştirme */
+    -webkit-mask-composite: destination-out;
+  }

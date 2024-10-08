@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+.bgImage {
+    width: 100%;
+    min-height: calc(100svh - 72px); /* Doğru birim kullanıldı */
+    background: url("/images/svg/hero_bg.svg") center bottom / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 43px;
+    position: relative;
+  }
+  
+  /* Responsive Yükseklik Ayarı */
+  @media (max-width: 768px) {
+    .bgImage {
+      min-height: calc(100svh - 60px); 
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+.input{
+    background: radial-gradient(65.3% 74.82% at 20.29% 13.47%, #1A1A1A 0%, #151515 50%, #101010 100%);
+    border-radius: 45px;
+    min-height: 57px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.input::placeholder{
+    color: #FFFFFF99;
+    size: 20px;
+    line-height: 28.9px;
+    font-weight: 300;
+    font-family: Jost;
+}

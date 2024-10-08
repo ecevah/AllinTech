@@ -1,0 +1,22 @@
+.bgImage {
+    width: 100%;
+    height: calc(100svh - 72px); /* Doğru birim kullanıldı */
+    background: url("/images/svg/hero_bg.svg") center bottom / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 43px;
+  }
+  
+  /* Responsive Yükseklik Ayarı */
+  @media (max-width: 768px) {
+    .bgImage {
+      height: calc(100svh - 60px); 
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  

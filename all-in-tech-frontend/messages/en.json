@@ -1,0 +1,163 @@
+{
+    "HomePage": {
+        "HeroSection":{
+            "title": {
+                "white": "Designing the Digital Experiences of the",
+                "green": "Future!"
+            },
+            "description": "By designing user-oriented and sustainable digital experiences with innovative solutions supported by artificial intelligence, we push the boundaries of technology and shape the future today, making business processes more efficient and making a difference in the digital world.",
+            "button":{
+                "text": "Contact Us",
+                "link": "/en/contact"
+            }
+        },
+        "AphorismSection":{
+            "white": "Make a Difference with",
+            "green": "Artificial Intelligence and Special Software Solutions"
+        },
+        "WorksTypeSection":[
+            "Artificial Intelligence and Data Science",
+            "Mobile and Web Application Development",
+            "User Friendly UI/UX Design"
+        ],
+        "MissionStatementSection":"We are at the center of innovation. We develop customized software products for businesses with artificial intelligence, data science, mobile and web-based solutions. With our designs that prioritize user experience and our strong engineering team, we enable you to make a difference in the digital world. Whether customer relationship management, data analytics or mobile applications, we approach every project with a creative perspective and technical excellence. Our goal is to contribute to your growth by providing software that makes your business processes smarter, more efficient and effective.",
+        "RoadMapSection":[
+            "Idea and Concept Development",
+            "Identification of Requirements",
+            "Design Phase",
+            "Software Development",
+            "Testing and Quality Control",
+            "Target Product"
+        ],
+        "WavesSection":{
+            "title": "Take the First Step for Your Dream Project !",
+            "description": "Take Your Projects to the Next Level with Innovative Designs and Customized Solutions. Contact Now and Successfully Complete Your Dream Project!",
+            "button": {
+                "text": "Contact Us",
+                "link": "/en/contact"
+            }
+        },
+        "FooterSection": [
+            {
+                "title": "Learn More",
+                "items": [
+                {
+                    "text": "Home",
+                    "link": "/en"
+                },
+                {
+                    "text": "About Us",
+                    "link": "/en/about"
+                },
+                {
+                    "text": "Products",
+                    "link": "/en/products"
+                },
+                {
+                    "text": "Contact Us",
+                    "link": "/en/contact"
+                }
+                ]
+            },
+            {
+                "title": "Legal",
+                "items": [
+                {
+                    "text": "Company and Branding",
+                    "link": "/en"
+                },
+                {
+                    "text": "Privacy Policy",
+                    "link": "/en"
+                },
+                {
+                    "text": "Terms and Conditions",
+                    "link": "/en"
+                }
+                ]
+            }
+        ],
+        "FooterStatic":{
+            "contact": "Contact",
+            "follow": "Follow"
+        }
+    },
+    "Header":[
+        {
+            "text": "Home",
+            "link": "/en"
+        },
+        {
+            "text": "About Us",
+            "link": "/en/about"
+        },
+        {
+            "text": "Products",
+            "link": "/en/products"
+        },
+        {
+            "text": "Contact Us",
+            "link": "/en/contact"
+        }
+    ],
+    "AboutPage":{
+        "title":"Team",
+        "description": {
+            "white1": "We took this journey that we started as friends to a professional dimension.",
+            "white2": " For 2 years, we are a dynamic and passionate team ",
+            "green": " developing software projects together."
+        }
+    },
+    "ProductsPage":{
+        "title": "Products",
+        "description": "Take your business one step ahead in digital with our products! Optimize your processes and make a difference in the competition with our AI-powered solutions, data analytics platforms, CRM systems and mobile/web software.",
+        "slogan": "Act now, let's shape the future together!",
+        "products": [
+            {
+                "logo": "/products/allinlobby/allinlobby-logo.svg",
+                "mockup": "/products/allinlobby/allinlobby-mockup.png",
+                "title": "AllinLobby",
+                "desc": "AllinLobby is an application that includes many hotels and digitalizes both the marketing activities of these hotels and the in-hotel services they offer to their customers.",
+                "images": [
+                    "/products/allinlobby/image1.png",
+                    "/products/allinlobby/image2.png",
+                    "/products/allinlobby/image3.png"
+                ],
+                "socialMedia": {
+                    "instagram": "https://www.instagram.com/allinlobby"
+                }
+            },
+            {
+                "logo": "/products/psynexa/psynexa-logo.svg",
+                "mockup": "/products/psynexa/psynexa-mockup.png",
+                "title": "Psynexa",
+                "desc": "Psynexa is a wellness platform that offers personalized meditations and analytics to improve individuals' mental health with Nexabot, a generative AI-powered mental companion.",
+                "images": [
+                    "/products/psynexa/home.png",
+                    "/products/psynexa/blog.png",
+                    "/products/psynexa/nexa.png"
+                ],
+                "socialMedia": {
+                    "linkedin": "https://www.linkedin.com/company/psynexa",
+                    "instagram": "https://www.instagram.com/psynexa.en/",
+                    "website":"https://www.psynexa.com/en"
+                }
+            }
+        ]
+    },
+    "ContactPage": {
+        "white":"For Your Dream Project ",
+        "green":"Take the First Step!",
+        "label":"Contact Us",
+        "name":"Name Surname",
+        "email":"E-mail",
+        "subject":"Subject",
+        "message":"Your message",
+        "button": "Send",
+        "response": {
+            "success": "Your message was sent successfully!",
+            "error": "An error has occurred. Please try again.",
+            "loading": "Sending..."
+        }
+    }
+}
