@@ -48,7 +48,7 @@ export const TEAM = [
   },
   {
     photo: "/images/png/Bora.png",
-    name: "Bora Korpe",
+    name: "Bora Körpe",
     position: "Mobile Developer",
     socialMedia: {
       github: "https://github.com/borakorpee",
