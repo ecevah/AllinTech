@@ -9,7 +9,7 @@ export const TEAM = [
       huggingFace: "https://huggingface.co/halilibr",
       medium: "https://medium.com/@halil7hatun",
       kaggle: "https://www.kaggle.com/halilbrahimhatun ",
-      website: "linktr.ee/halilibr",
+      website: "https://linktr.ee/halilibr",
     },
   },
   {
