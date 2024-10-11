@@ -28,4 +28,4 @@ export const ROADMAP_TABLET_TR = "/images/svg/roadmap-tablet.svg";
 export const ROADMAP_MOBILE_TR = "/images/svg/roadmap-mobil.svg";
 export const MEDIUM = "/images/svg/medium.svg";
 export const WEBSITE = "/images/svg/website.svg";
-export const YOUTUBE = "/images/svg/youTube.svg";
+export const YOUTUBE = "/images/svg/youtube.svg";
